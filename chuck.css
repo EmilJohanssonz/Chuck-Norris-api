@@ -1,0 +1,40 @@
+html {
+  margin: auto;
+  padding: 2px;
+}
+h1 {
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+button {
+  position: relative;
+  right: -580px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  /*border: 1px solid red;*/
+}
+p {
+  text-align: center;
+}
+
+#cateList {
+  position: absolute;
+  left: -370px;
+}
+#getCate {
+  left: 577px;
+}
+.sok {
+  text-align: center;
+  margin-top: 80px;
+}
+#searchBtn {
+  left: 20px;
+}
+li {
+  list-style-type: circle;
+}
