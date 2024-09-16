@@ -1,40 +1,46 @@
+/*Chuck Norris jokes*/
 html {
   margin: auto;
   padding: 2px;
 }
+
 h1 {
-  text-align: center;
+  text-align: center; /*centered*/
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif; /*font family*/
+  background-color: lightgray; /*background color*/
 }
 button {
-  position: relative;
-  right: -580px;
-  margin-top: 20px;
-  background-color: black;
-  color: white;
+  position: relative; /*relative position*/
+  right: -580px; /*position to the right*/
+  margin-top: 20px; /*margin top*/
+  background-color: black; /*background color*/
+  color: white; /*text color*/
   /*border: 1px solid red;*/
 }
 p {
-  text-align: center;
+  text-align: center; /*centered*/
 }
-
+/*Style for the category list*/
 #cateList {
   position: absolute;
   left: -370px;
 }
+/*Style for the get category button*/
 #getCate {
   left: 577px;
 }
+/*Style for the search button*/
 .sok {
   text-align: center;
   margin-top: 80px;
 }
+/*Style for the search button*/
 #searchBtn {
   left: 20px;
 }
+/*Style for the list of categories*/
 li {
   list-style-type: circle;
 }
